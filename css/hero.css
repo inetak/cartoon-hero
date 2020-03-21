@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, Sans-serif;
+	line-height: 30px;
+}
+header{
+	background-color: #c90409;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header h1{
+	font-family: 'Caveat', cursive;
+	color: white;
+	font-size: 70px;
+}
+header img{
+	border-radius: 470px;
+	width: 490px;
+	border: 20px solid #640205;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+h2{
+	font-size: 35px;
+	color: #c90409;
+	font-family: 'Alegreya Sans', sans-serif, bold;
+	margin: 50px 0 0 0;
+}
+p{
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+a{
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+}
+a:hover{
+	color:#c90409;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+}
+footer{
+	background-color: #DCDBDB;
+	text-align: center;
+	color: black;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	padding: 50px;
+}
+footer p{
+	margin: 0;
+}
+footer a:hover{
+	color: #c90409;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 20px;
+	background-color: transparent;
+}
+ul{
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+p.caption{
+	color: grey;
+	font-style: italic;
+	margin-top: 0;
+}
