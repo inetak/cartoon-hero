@@ -4,7 +4,9 @@ body{
 	line-height: 30px;
 }
 header{
-	background-color: #c90409;
+	/*background-color: #c90409;*/
+	background-image: url("pattern.png");
+  	background-repeat: repeat-y repeat-x;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -13,11 +15,12 @@ header h1{
 	font-family: 'Caveat', cursive;
 	color: white;
 	font-size: 70px;
+	text-shadow:3px 3px black;
 }
 header img{
 	border-radius: 470px;
 	width: 490px;
-	border: 20px solid #640205;
+	border: 20px solid #c90409;
 }
 main{
 	max-width: 800px;
@@ -42,19 +45,22 @@ a{
 	color: black;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 20px;
+
 }
-a:hover{
-	color:#c90409;
+ol a:hover{
+	color: white;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 20px;
+	background-color: #c90409;
 }
 footer{
-	background-color: #DCDBDB;
+	background-image: url("pattern.png");
+  	background-repeat: repeat-y repeat-x;
 	text-align: center;
 	color: black;
 	font-family: 'Alegreya Sans', sans-serif;
 	font-size: 20px;
-	padding: 50px;
+	padding: 200px;
 }
 footer p{
 	margin: 0;
