@@ -4,9 +4,8 @@ body{
 	line-height: 30px;
 }
 header{
-	/*background-color: #c90409;*/
 	background-image: url("pattern.png");
-  	background-repeat: repeat-y repeat-x;
+  	background-repeat: auto;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -60,7 +59,7 @@ ol a:hover{
 }
 footer{
 	background-image: url("pattern.png");
-  	background-repeat: repeat-y repeat-x;
+  	background-repeat: auto;
 	text-align: center;
 	color: black;
 	font-family: 'Alegreya Sans', sans-serif;
